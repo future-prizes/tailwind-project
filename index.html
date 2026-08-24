@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-brand-grey: rgb(136,136,136)
+        }
+    </style>
+</head>
+<header class="border-b-3 border-black flex content-center justify-between flex-wrap px-10 min-h-15">
+    <h1 class="font-bold text-2xl flex content-center flex-wrap">Student Portfolio</h1>
+    <nav class="flex gap-10 justify-evenly content-center flex-wrap text-(--color-brand-grey)">
+        <a class="block p-1 border-b-transparent border-b-2 hover:border-black hover:text-black hover:-translate-y-1 duration-200" href="index.html"><div>HOME</div></a>
+        <a class="block p-1 border-b-transparent border-b-2 hover:border-black hover:text-black hover:-translate-y-1 duration-200"href="project.html"><div>PROJECTS</div></a>
+        <a class="block p-1 border-b-transparent border-b-2 hover:border-black hover:text-black hover:-translate-y-1 duration-200"href="contact.html"><div>CONTACT</div></a>
+    </nav>
+    <div class="flex content-center flex-wrap gap-7">
+        <i class="flex content-center fa-solid fa-magnifying-glass"></i>
+        <button class="text-white bg-black border-2 border-b-gray-400 p-1 px-7">DOWNLOAD CV</button>
+    </div>
+
+</header>
+<body>
+    <main class="pt-10 px-22">
+        <h6 class="mt-10 text-(--color-brand-grey)">SELECTED WORKS 2023-2024</h6>
+        <section class="mt-4 pb-5 flex justify-between content-center flex-wrap border-b-2 border-(--color-brand-grey)">
+        <div class="max-w-5/10">
+            <h1 class="text-8xl">ARCHITECTURAL INTEGRITY AND SPATIAL LOGIC.</h1>
+        </div>
+        <div class="justify-between flex flex-col gap-3 max-w-3/10 ml-auto">
+            <div class="text-(--color-brand-grey) text-2xl grow pl-6 border-l-3 border-black mb-4">
+                A focussed investigation into modular structures and technical
+                precision within high-density urban environments. Designed for
+                clarity, authority and high-performance utility
+            </div>
+            <div class="flex justify-between gap-2">
+                <div class="text-center w-1/2 p-5 bg-black text-white">
+                    EXPLORE PORTFOLIO
+                </div>
+                <div class="text-center w-1/2 p-5 bg-(--color-brand-grey)">
+                    OUR PHILOSOPHY
+                </div>
+            </div>
+        </div>
+        </section>
+            <aside class="py-12 grid grid-cols-4 border-b-2 border-(--color-brand-grey) gap-6">
+            <div class="border-r border-(--color-brand-grey) py-2">
+                <h2>PROJECTS COMPLETED</h2>
+                <p class="font-bold text-4xl"><i>42+</i></p>
+            </div>
+            <div class="border-r border-(--color-brand-grey) py-2">
+                <h2>GLOBAL AWARDS</h2>
+                <p class="font-bold text-4xl"><i>12</i></p>
+            </div>
+            <div class="border-r border-(--color-brand-grey) py-2">
+                <h2>TECHNICAL CERTS</h2>
+                <p class="font-bold text-4xl"><i>08</i></p>
+            </div>
+            <div class="py-2">
+                <h2>DESIGN LABS</h2>
+                <p class="font-bold text-4xl"><i>03</i></p>
+            </div>
+        </aside>
+    
+        <section class="grid grid-rows-4 grid-cols-4 px-4">
+            <div class="col-span-2 row-span-4"></div>
+            <div class="col-span-2 row-span-2"></div>
+            <div class="col-span-1 row-span-2"></div>
+            <div class="col-span-1 row-span-2"></div>
+
+        </section>
+    </main>
+
+
+</body>
+</html>
