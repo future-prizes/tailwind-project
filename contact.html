@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,9 +17,18 @@
 <header class="border-b-3 border-black flex content-center justify-between flex-wrap px-10 min-h-15">
     <h1 class="font-bold text-2xl flex content-center flex-wrap">Student Portfolio</h1>
     <nav class="flex gap-10 justify-evenly content-center flex-wrap text-(--color-brand-grey)">
-        <a class="block p-1 border-b-transparent border-b-2 hover:border-black hover:text-black hover:-translate-y-1 duration-200" href="index.html"><div>HOME</div></a>
-        <a class="block p-1 border-b-transparent border-b-2 hover:border-black hover:text-black hover:-translate-y-1 duration-200"href="project.html"><div>PROJECTS</div></a>
-        <a class="block p-1 border-b-transparent border-b-2 hover:border-black hover:text-black hover:-translate-y-1 duration-200"href="contact.html"><div>CONTACT</div></a>
+        <a class="block p-1 border-b-transparent border-b-2 hover:border-black hover:text-black hover:-translate-y-1 duration-200"
+            href="index.html">
+            <div>HOME</div>
+        </a>
+        <a class="block p-1 border-b-transparent border-b-2 hover:border-black hover:text-black hover:-translate-y-1 duration-200"
+            href="project.html">
+            <div>PROJECTS</div>
+        </a>
+        <a class="block p-1 border-b-transparent border-b-2 hover:border-black hover:text-black hover:-translate-y-1 duration-200"
+            href="contact.html">
+            <div>CONTACT</div>
+        </a>
     </nav>
     <div class="flex content-center flex-wrap gap-7">
         <i class="flex content-center fa-solid fa-magnifying-glass"></i>
@@ -26,7 +36,49 @@
     </div>
 
 </header>
+
 <body>
-    
+    <main class="pt-10 px-36">
+
+        <div class="max-w-4/10 border-l-4 pl-8 mb-12">
+            <h1 class="mb-8 text-8xl font-bold">LEAVE YOUR <br /><i
+                    class="border-b-4 border-(--color-brad-grey) text-(--color-brand-grey)">MARK.</i></h1>
+            <p>CURRENTLY EXPLORING THE INTERSECTION OF TECTONIC MATERIALITY AND DIGITAL
+                INTERFACES. OPEN FOR ARCHITECTURAL VISUALISATIONS, FULL-STACK COLLABORATIONS,
+                AND TECHNICAL DIALOGUE
+            </p>
+        </div>
+        <section class="border-t pt-8">
+            <div class="grid grid-cols-2 gap-12">
+                <div class="col-span-1 p-8 border-2 border-(--color-brand-grey)">
+                    <div class="grid grid-cols-2 gap-8 pb-10">
+                        <div class="col-span-1">
+                            <label for="FULL NAME">FULL NAME</label><br />
+                            <input class="mt-4 shadow-2xl" name="FULL NAME" placeholder="ALEX_VANCE" type="text">
+                        </div>
+                        <div class="col-span-1">
+                            <label for="EMAIL">EMAIL ADDRESS</label><br />
+                            <input class="mt-4 shadow-2xl" name="EMAIL" placeholder="CLIENT@DOMAIN.OOM" type="email">
+                        </div>
+                        <div class="col-span-2">
+                            <label  for="SUBJECT">SUBJECT</label><br />
+                            <input class="mt-4 w-full shadow-2xl" name="SUBJECT" placeholder="PROJECT_COLLABRATION" type="text">
+                        </div>
+                        <div class="col-span-2">
+                            <label  for="MESSAGE">MESSAGE</label><br />
+                            <textarea class="mt-4 min-h-36 w-full shadow-2xl" name="MESSAGE" placeholder="DESCRIBE THE SCOPE"></textarea>
+                        </div>
+                    </div>
+                    <button class="p-8 w-4/10 bg-black text-white">INITIALISE CONTACT<i
+                            class="ml-4 fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="col-span-1"></div>
+            </div>
+        </section>
+    </main>
+
+
+
 </body>
+
 </html>
